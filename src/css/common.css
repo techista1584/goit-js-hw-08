@@ -16,3 +16,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+a {
+  display: inline-block;
+  margin: 2px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  background-color: teal;
+  transition: color 250ms linear, background-color 250ms linear;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: teal;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(131, 136, 136);
+}
